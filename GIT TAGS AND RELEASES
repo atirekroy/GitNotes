@@ -1,0 +1,15 @@
+GIT TAGS AND RELEASES
+git log -> to know the recent logs
+git log --oneline --graph --decorate --all
+
+git tag <tag_name> <branch_name>   <- simple tag
+git tag -a v0.1 -m <message> <commit_id_on_which_we_want_to_apply_tag> <- annotated tag
+
+To push tags use
+git push --tags
+
+With releases we can add notes
+
+
+
+

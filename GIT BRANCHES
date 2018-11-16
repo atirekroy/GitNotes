@@ -1,0 +1,12 @@
+GIT BRANCHES
+
+git branch [-b branch-name]
+git checkout [-b branch-name] -> creates and switches the user to that branch
+git push -u [origin] [master]
+
+DEFAULT branch can be set in the github setting and it is the base branch
+
+
+
+
+
