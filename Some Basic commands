@@ -1,0 +1,10 @@
+Some Basic commands
+
+git config -> to configure the tooling
+git init -> initialise the local git repository
+git clone -> download the project from the remote
+git add -> prepare file(to stagging)
+git commit -> commit a file to the repo
+
+
+

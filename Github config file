@@ -1,0 +1,12 @@
+Github config file
+
+1. Everything that we configure, is stored in the config file
+2. We can use git config to change the contents of the config file
+3. To see the config file, use git config --edit --global
+4. To change the editor in which our git files opens, set the environmental variable as our editor executable path and then call like this
+
+git config core.editor "editor_env_variable -multiInst -nosession"
+This command set the editor as our default editor
+-multiInst - always instantiates the new instance
+-nosession - always open the blank seesion
+
