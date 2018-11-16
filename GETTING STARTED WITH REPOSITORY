@@ -1,0 +1,96 @@
+GETTING STARTED WITH REPOSITORY
+When we want to start working with repository
+a. We can create the repository on github and then clone it locally 
+b. Create the local repository and push that in the github
+
+
+Github has four parts
+1. Working directory
+2. Staging Area
+3. .git repo locally -> contains a data of working directory and the remote if the remote has been added using git remote add
+4. github repository in remote
+
+
+
+b. Create the local repository and push that in the github
+
+1.To check if the remote is configured 
+git remote -v
+
+2.To set up remote use
+git remote add origin https://github.com/atirekroy/GitNotes.git
+
+Here origin is the key and the https://github.com/atirekroy/GitNotes.git is the value
+
+3. to push the local contents of the repository to the remote in github
+
+git push -u origin master
+
+-u -> to create tracking relation between my local master and the remote origin
+
+From next push we don't have to use -u parameter
+
+git show-ref -> to get the branch name
+
+
+SETUPING UP THE SSH to use github
+
+The public key can be freely shared with any party. It is associated with its paired key, but the private key cannot be derived from the public key. The mathematical relationship between the public key and the private key allows the public key to encrypt messages that can only be decrypted by the private key. This is a one-way ability, meaning that the public key has no ability to decrypt the messages it writes, nor can it decrypt anything the private key may send it.
+
+The private key should be kept entirely secret and should never be shared with another party. This is a key requirement for the public key paradigm to work. The private key is the only component capable of decrypting messages that were encrypted using the associated public key. By virtue of this fact, any entity capable decrypting these messages has demonstrated that they are in control of the private key.
+
+Now to set up the SSH we need two keys. We can generate it using
+1.ssh-keygen -t rsa -b 4096 -C "<my_email_id>"
+2.Paste the public key in your github account setting ssh option
+3.ssh -T git@github.com
+
+
+
+SEARCHING on github
+Use advanced search to get the query through which you can search
+
+SPECIAL FILES
+readme
+license
+contributers and contributing
+changelog
+support
+code_of_conduct
+
+md stands for the markdown. Here is the link to know more about it
+https://daringfireball.net/projects/markdown/syntax
+
+
+show-ref
+In local we have two ref nodes
+1. remote -> copy of the remote directory 
+2. master -> copy of working directory
+
+Differnce between collaborator and the contributer
+collabrator has the direct permission to commit
+contributer does not have that and have low permission
+
+collabrator- we can add collaborator by the settings page
+
+
+CONCEPT OF HEAD
+
+to know which branch we are interested in 
+with the help of the checkout command we can change the head
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -10,3 +10,17 @@ This command set the editor as our default editor
 -multiInst - always instantiates the new instance
 -nosession - always open the blank seesion
 
+
+ln -s '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' /usr/local/bin/subl
+
+The best & safest way to do this is to create a symbolic link from the Sublime executable file (subl) to a folder already in your $PATH (e.g. /usr/local/bin/). If you do this; you won't have to update this every time sublime updates.
+
+There are three things that we can set 
+Symbolic link
+Alias
+Environmental varible
+
+
+
+
+
