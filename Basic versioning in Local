@@ -1,0 +1,4 @@
+Basic versioning in Local
+
+1. git add  .  -> put all the files on tracking
+2. git commit -m "message you want to print"
